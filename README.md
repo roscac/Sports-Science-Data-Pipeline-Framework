@@ -102,6 +102,10 @@ python scripts/anonymize_raw.py
 ```
 
 Sample synthetic data is available in `sample_data/` for quick demos.
+Copy it into `data/raw/` and run the pipeline:
+```bash
+cp sample_data/demo_raw_sessions.csv data/raw/
+```
 
 ---
 
