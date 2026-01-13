@@ -1,0 +1,8 @@
+pandas
+numpy
+PySide6
+requests
+pyyaml
+pytest
+GitPython
+pre-commit

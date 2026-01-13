@@ -1,0 +1,9 @@
+data/raw/
+data/identity_key/
+data/upload/
+data/ml_input/
+logs/
+__pycache__/
+*.pyc
+.venv/
+.vscode/

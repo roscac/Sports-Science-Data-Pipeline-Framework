@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-merge-conflict
+  - repo: local
+    hooks:
+      - id: block-sensitive-folders
+        name: Block committing raw/key/upload/logs
+        entry: python scripts/helpers/precommit_block_sensitive.py
+        language: system
+        pass_filenames: true

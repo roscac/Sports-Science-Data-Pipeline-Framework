@@ -1,0 +1,9 @@
+project_name: example_project
+anonymization:
+  identifier_column: athlete_id
+  name_column: athlete_name
+  pii_columns:
+    - athlete_name
+  hmac_key_path: data/identity_key/hmac_key.txt
+  identity_key_path: data/identity_key/identity_key.csv
+  pseudonym_column: athlete_id
