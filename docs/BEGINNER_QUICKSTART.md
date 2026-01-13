@@ -25,7 +25,7 @@ python -m gui.main_window
 A graphical interface will open. If a local `.venv` exists, the GUI will auto-reexec into it.
 
 ## Typical demo workflow
-1. Place demo CSV files into `data/raw/`
+1. Place demo CSV files into `data/raw/` (or copy from `sample_data/`)
 2. Click **Process Raw Data**
 3. Click **Run ML Project**
 4. Click **Re-identify for Upload** (dry-run demo)

@@ -1,0 +1,5 @@
+athlete_id,athlete_name,datetime_utc,session_id,metric_distance_m,metric_sprint_m,team
+A001,Alex Runner,2025-01-01T10:00:00Z,sess_001,5200,320,Blue
+A002,Bailey Stride,2025-01-01T10:00:00Z,sess_001,4800,210,Blue
+A003,Casey Pace,2025-01-02T11:30:00Z,sess_002,6100,400,Blue
+A004,Drew Tempo,2025-01-02T11:30:00Z,sess_002,5700,350,Blue

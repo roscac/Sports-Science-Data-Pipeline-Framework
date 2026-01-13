@@ -101,6 +101,8 @@ For a CLI-only anonymization pass:
 python scripts/anonymize_raw.py
 ```
 
+Sample synthetic data is available in `sample_data/` for quick demos.
+
 ---
 
 ## Documentation
